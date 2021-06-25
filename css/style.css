@@ -1,0 +1,83 @@
+*{ 
+    margin:0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+body {
+    background-color: whitesmoke;
+    }
+.box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 5px 0 25px;
+}
+.box-title {
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+
+}
+.bg-tabel {
+    background-color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 15px 0 25px;
+    text-align: center;
+    width: 40%;
+    height: 230px;
+    margin: 100px auto;
+}
+.img-tabel {
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    width: auto;
+    height: 300px;
+    margin: auto;
+}
+.btn_submit {
+    padding: 8px 12px;
+    background-color: #5E80EB;
+    color: white;
+    border: none;
+    font-size: 12px;
+}
+.btn_submit:hover {
+    cursor: pointer;
+    background-color: #3D61D0;
+}
+.tombol_navigasi {
+    margin-top: 10px;
+}
+@media only screen and (max-width: 500px) {
+    .isi_form {
+        max-width: 90%;
+    }
+}
+.tabel_cetak {
+    width: 100%;
+    margin-top: 10px;
+}
+.tabel_cetak tr {
+    height: 35px;
+}
+.tabel_cetak tr td:nth-child(1){
+    width: 30%;
+}
+.login_admin {
+   padding: 1em;
+   margin: 2em auto;
+   width: 17em;
+   background: #fff;
+   border-radius: 3px;
+}   
+.box_login {
+    width: 320px;
+    min-height: 200px;
+    border: 1px solid;
+}
+.box_login h2 {
+    text-align: center;
+}
